@@ -70,6 +70,7 @@ The stored data is then used to build an interactive Power BI dashboard for anal
 └──────────────────────┘
 
 ```
+---
 
 ## ⚙️ Automated Workflow
 1. Gmail Trigger
@@ -101,6 +102,9 @@ sales_id_no
 5. Confirmation Email
 After successful processing, the workflow sends a confirmation email back to the sender.
 This confirms that the dataset was successfully processed and inserted into the database.
+
+---
+
 ##🗄️ Dataset Information
 The BMW dataset contains sales-related attributes such as:
 ```
@@ -129,13 +133,19 @@ Payment Method
 Customer Rating
 Sales Classification
 ```
+
+---
+
 ##🛠️ Tech Stack
 ```
 TechnologyPurposen8nWorkflow automationGmailDataset ingestionPostgreSQLDatabase managementPower BIData visualizationDAXKPI calculationsExcel (.xlsx)Data inputGit & GitHubVersion control📊 Power BI Dashboard
 ```
 The Power BI dashboard is designed to provide insights into BMW sales performance.
 
+---
+
 ##Key KPIs
+```
 💰 Total Revenue
 🚗 Total Cars Sold
 📈 Average Selling Price
@@ -144,8 +154,12 @@ The Power BI dashboard is designed to provide insights into BMW sales performanc
 🌍 Sales by Region
 🚘 Sales by Model
 💳 Sales by Payment Method
+```
+
 Example DAX Measures
+---
 Total Revenue
+
 ```
 Total Revenue =
 SUM(bmw[final_price_usd])
@@ -164,6 +178,10 @@ Average Selling Price
 Average Selling Price =
 AVERAGE(bmw[final_price_usd])
 ```
+
+---
+
+
 ##📂 Repository Structure
 
 ```
@@ -188,6 +206,10 @@ BMW-RealTime-Automated-Analysis/
 ├── n8n workflow.png
 └── README.md
 ```
+
+---
+
+
 ##🚀 How to Run the Project
 Step 1: Clone the Repository
 git clone https://github.com/AmirLakra/BMW-RealTime-Automated-Analysis.git
@@ -207,6 +229,7 @@ Create DAX measures and build the dashboard visuals.
 
 Step 5: Test the Automation
 Send an Excel file containing BMW sales data to the configured Gmail account.
+---
 The n8n workflow will:
 ```
 Detect Email
@@ -222,6 +245,8 @@ Send Confirmation Email
 Refresh Analytics Data
 ```
 
+---
+
 ##⭐ Project Highlights
 End-to-end automated analytics pipeline
 Gmail-based dataset ingestion
@@ -231,6 +256,11 @@ Insert and update operations using upsert
 Automated confirmation emails
 Interactive Power BI dashboard
 DAX-based KPI calculations
+
+
+---
+
+
 ##👨‍💻 Author
 Amir Lakra
 ⭐ If you found this project interesting, consider giving the repository a star!  
