@@ -268,5 +268,3 @@ Amir Lakra
 ---
 ⭐ If you found this project interesting, consider giving the repository a star!  
 ---
-
-rewrite it in makrdown syntax
