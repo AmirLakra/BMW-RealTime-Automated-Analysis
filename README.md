@@ -220,7 +220,7 @@ Create a PostgreSQL database and create the required bmw table using the provide
 
 Step 3: Configure n8n
 Import or recreate the n8n workflow and configure:
----
+
 Gmail credentials
 PostgreSQL credentials
 ⚠️ Never upload passwords, API keys, OAuth tokens, or database credentials to GitHub.
