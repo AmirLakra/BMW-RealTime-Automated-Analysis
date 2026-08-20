@@ -263,7 +263,7 @@ DAX-based KPI calculations
 ---
 
 
-##👨‍💻 Author
+## 👨‍💻 Author
 Amir Lakra
 ---
 ⭐ If you found this project interesting, consider giving the repository a star!  
