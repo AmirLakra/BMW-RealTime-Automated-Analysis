@@ -214,24 +214,24 @@ BMW-RealTime-Automated-Analysis/
 Step 1: Clone the Repository
 git clone https://github.com/AmirLakra/BMW-RealTime-Automated-Analysis.git
 cd BMW-RealTime-Automated-Analysis
----
+
 Step 2: Set Up PostgreSQL
 Create a PostgreSQL database and create the required bmw table using the provided SQL scripts.
----
+
 Step 3: Configure n8n
 Import or recreate the n8n workflow and configure:
 ---
 Gmail credentials
 PostgreSQL credentials
 ⚠️ Never upload passwords, API keys, OAuth tokens, or database credentials to GitHub.
----
+
 Step 4: Connect Power BI
 Connect Power BI to the PostgreSQL database and load the BMW sales data.
 Create DAX measures and build the dashboard visuals.
----
+
 Step 5: Test the Automation
 Send an Excel file containing BMW sales data to the configured Gmail account.
----
+
 The n8n workflow will:
 ```
 Detect Email
