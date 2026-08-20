@@ -105,7 +105,7 @@ This confirms that the dataset was successfully processed and inserted into the 
 
 ---
 
-##🗄️ Dataset Information
+## 🗄️ Dataset Information
 The BMW dataset contains sales-related attributes such as:
 ```
 Sale ID
@@ -136,7 +136,7 @@ Sales Classification
 
 ---
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 ```
 TechnologyPurposen8nWorkflow automationGmailDataset ingestionPostgreSQLDatabase managementPower BIData visualizationDAXKPI calculationsExcel (.xlsx)Data inputGit & GitHubVersion control📊 Power BI Dashboard
 ```
@@ -182,7 +182,7 @@ AVERAGE(bmw[final_price_usd])
 ---
 
 
-##📂 Repository Structure
+## 📂 Repository Structure
 
 ```
 BMW-RealTime-Automated-Analysis/
@@ -210,23 +210,25 @@ BMW-RealTime-Automated-Analysis/
 ---
 
 
-##🚀 How to Run the Project
+## 🚀 How to Run the Project
 Step 1: Clone the Repository
 git clone https://github.com/AmirLakra/BMW-RealTime-Automated-Analysis.git
 cd BMW-RealTime-Automated-Analysis
+---
 Step 2: Set Up PostgreSQL
 Create a PostgreSQL database and create the required bmw table using the provided SQL scripts.
-
+---
 Step 3: Configure n8n
 Import or recreate the n8n workflow and configure:
-
+---
 Gmail credentials
 PostgreSQL credentials
 ⚠️ Never upload passwords, API keys, OAuth tokens, or database credentials to GitHub.
+---
 Step 4: Connect Power BI
 Connect Power BI to the PostgreSQL database and load the BMW sales data.
 Create DAX measures and build the dashboard visuals.
-
+---
 Step 5: Test the Automation
 Send an Excel file containing BMW sales data to the configured Gmail account.
 ---
@@ -247,7 +249,7 @@ Refresh Analytics Data
 
 ---
 
-##⭐ Project Highlights
+## ⭐ Project Highlights
 End-to-end automated analytics pipeline
 Gmail-based dataset ingestion
 Automated Excel processing
@@ -263,6 +265,8 @@ DAX-based KPI calculations
 
 ##👨‍💻 Author
 Amir Lakra
+---
 ⭐ If you found this project interesting, consider giving the repository a star!  
+---
 
 rewrite it in makrdown syntax
