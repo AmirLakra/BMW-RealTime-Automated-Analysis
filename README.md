@@ -98,7 +98,7 @@ Existing records are updated
 Duplicate records can be handled using a matching column
 The matching field used is:
 
-sales_id_no
+sales_id_no.
 5. Confirmation Email
 After successful processing, the workflow sends a confirmation email back to the sender.
 This confirms that the dataset was successfully processed and inserted into the database.
