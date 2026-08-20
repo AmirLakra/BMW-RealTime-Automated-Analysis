@@ -79,9 +79,10 @@ The workflow filters emails using a specific subject pattern and checks for atta
 2. Excel Attachment Detection
 A custom n8n Code node identifies Excel attachments.
 Supported file format:
-
+```
 .xlsx
 Only valid Excel files are passed to the next stage of the workflow.
+```
 
 3. Data Extraction
 The Extract from File node reads the Excel file and converts the spreadsheet into structured records.
@@ -102,7 +103,7 @@ After successful processing, the workflow sends a confirmation email back to the
 This confirms that the dataset was successfully processed and inserted into the database.
 ##🗄️ Dataset Information
 The BMW dataset contains sales-related attributes such as:
-
+```
 Sale ID
 Sale Date
 Customer ID
@@ -127,8 +128,11 @@ Final Price
 Payment Method
 Customer Rating
 Sales Classification
+```
 ##🛠️ Tech Stack
+```
 TechnologyPurposen8nWorkflow automationGmailDataset ingestionPostgreSQLDatabase managementPower BIData visualizationDAXKPI calculationsExcel (.xlsx)Data inputGit & GitHubVersion control📊 Power BI Dashboard
+```
 The Power BI dashboard is designed to provide insights into BMW sales performance.
 
 ##Key KPIs
@@ -142,6 +146,7 @@ The Power BI dashboard is designed to provide insights into BMW sales performanc
 💳 Sales by Payment Method
 Example DAX Measures
 Total Revenue
+```
 Total Revenue =
 SUM(bmw[final_price_usd])
 Total Discount
@@ -150,12 +155,15 @@ SUMX(
     bmw,
     bmw[list_price_usd] - bmw[final_price_usd]
 )
+```
 Total Cars Sold
+```
 Total Cars Sold =
 COUNTROWS(bmw)
 Average Selling Price
 Average Selling Price =
 AVERAGE(bmw[final_price_usd])
+```
 ##📂 Repository Structure
 
 ```
