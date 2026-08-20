@@ -157,6 +157,8 @@ Average Selling Price
 Average Selling Price =
 AVERAGE(bmw[final_price_usd])
 ##📂 Repository Structure
+
+```
 BMW-RealTime-Automated-Analysis/
 │
 ├── Dataset/
@@ -177,6 +179,7 @@ BMW-RealTime-Automated-Analysis/
 ├── background.jpg
 ├── n8n workflow.png
 └── README.md
+```
 ##🚀 How to Run the Project
 Step 1: Clone the Repository
 git clone https://github.com/AmirLakra/BMW-RealTime-Automated-Analysis.git
@@ -197,7 +200,7 @@ Create DAX measures and build the dashboard visuals.
 Step 5: Test the Automation
 Send an Excel file containing BMW sales data to the configured Gmail account.
 The n8n workflow will:
-
+```
 Detect Email
     ↓
 Download XLSX Attachment
@@ -209,7 +212,7 @@ Insert / Update PostgreSQL
 Send Confirmation Email
     ↓
 Refresh Analytics Data
-
+```
 
 ##⭐ Project Highlights
 End-to-end automated analytics pipeline
